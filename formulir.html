@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form>
+        Nama :
+        <input type="name" required />
+        <br />
+        Tanggal Lahir :
+        <input type="date"required />
+        <br />
+        Berat badan :
+        <input type="number" min="20" max="150" required />
+        <br />
+        Email
+        <input type="email" required />
+        <br />
+        Password
+        <input type="password" required />
+        <br />
+        Jenis Kelamin
+        <input type="radio" name="gender" required /> Pria
+        <input type="radio" name="gender" required /> Wanita
+        <br />
+        Hobi
+        <input type="checkbox" name="hobi" required /> Sport
+        <input type="checkbox" name="hobi" required /> Dance
+        <input type="checkbox" name="hobi" required /> Sing
+        <br />
+        Warna Favorit
+        <input type="color" required />
+        <br />
+        Upload gambar
+        <input type="file" accept= "image/jpg" required />
+        <br />
+        Kepuasan Pelanggan:
+        <input type="range" min="10" max="100" required />
+        <br />
+        Jurusan
+        <select required>
+            <option value="RPL">Rekayasa Perangkat Lunak</option>
+            <option value="RPL">Teknik Komputer dan Jaringan</option>
+        </select> 
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset Formulir</button>
+
+    </form>
+</body>
+</html>
